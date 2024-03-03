@@ -1,0 +1,41 @@
+ * {
+     background-color: rgb(2, 10, 60);
+     font-family: 'Poppins', sans-serif;
+ }
+
+ h1 {
+     display: flex;
+     justify-content: center;
+     color: azure;
+ }
+
+ input[type=text],
+ select,
+ textarea {
+     width: 100%;
+     padding: 6px;
+     color: #ffffff;
+     border: 1px solid blueviolet;
+     box-sizing: border-box;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     resize: vertical;
+ }
+
+ .container {
+     color: azure;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ .send {
+     padding: 12px;
+     background: rgb(255, 113, 255);
+     color: azure;
+     border: 2px solid azure;
+     border-radius: 6px;
+     font-size: 12px;
+     cursor: pointer;
+
+ }
