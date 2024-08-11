@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+
+    background: rgb(42, 254, 162);
+    background: linear-gradient(90deg, rgba(42, 254, 162, 1) 0%, rgba(25, 12, 167, 1) 100%);
+    z-index: -1;
+    backdrop-filter: blur(15px);
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+header span {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: grey;
+    color: white;
+    font: bold;
+    margin-left: 40px;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.write {
+    padding: 20px;
+
+}
+
+.heading {
+    display: flex;
+  flex-direction: column;
+align-items: center;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.heading h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.heading h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 5px;
+    color: paleturquoise;
+    font-weight: bold;
+
+    text-align: end;
+}
+
+.para {
+    margin-top: 20px;
+    color: black;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    margin-top: 50px;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+
+}
+
+.card h1 {
+    padding: 20px;
+}
+
+.card span {
+    color: blueviolet;
+}
+
+.area {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.textarea {
+    padding: 40px;
+    width: 600px;
+    height: 250px;
+    color: black;
+    border-radius: 10px;
+    resize: none;
+    border: 0;
+    outline: 0;
+    background: white;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(16px);
+
+}
+
+.textarea ::placeholder {
+    color: white;
+}
+
+.textarea :focus {
+    background-color: #00000050;
+
+
+}
+
+.selection {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 650px;
+}
+
+.selection select {
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    background: rgb(42, 254, 162);
+
+    border: 0;
+    border-radius: 20px;
+    outline: 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+
+.selection button {
+    background-color: rgb(42, 254, 162);
+    width: 100px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 7px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.selection button img {
+    width: 14px;
+    margin-right: 6px;
+    margin-top: 5px;
+}
